@@ -221,3 +221,88 @@ nav .menu ul li a:hover {
 .items ul li:hover {
   color: crimson;
 }
+
+.photos {
+  height: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 200px;
+  background-color: aqua;
+}
+
+.first-half-photo img {
+  transition: all 0.3s linear;
+}
+
+.first-half-photo img:hover {
+  filter: grayscale(1);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 200px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.card {
+  width: 300px;
+  height: 580px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0.5px 0.5px 30px rgba(211, 211, 211, 0.5);
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+
+.card:hover {
+  box-shadow: 0.5px 0.5px 5px rgba(211, 211, 211, 0.5);
+}
+
+.card .image-holder {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  transition: all 0.5s linear;
+}
+
+.card img:hover {
+  transform: scale(1.2);
+  filter: grayscale(1);
+}
+
+.card p {
+  margin: 0;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 35px;
+  font-size: 1.2em;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 20px;
+  transition: all 0.3s linear;
+}
+
+.card a:hover {
+  background-color: black;
+  color: white;
+}
