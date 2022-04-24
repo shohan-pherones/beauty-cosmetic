@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+  background-color: whitesmoke;
 }
 
 nav {
@@ -13,8 +14,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: black;
-  color: white;
+  color: whitesmoke;
 }
+
 .logo {
   margin-left: 200px;
   cursor: pointer;
@@ -48,7 +50,7 @@ nav .menu ul li {
 
 nav .menu ul li a {
   text-decoration: none;
-  color: white;
+  color: whitesmoke;
   font-weight: 500;
 }
 
@@ -61,7 +63,7 @@ nav .menu ul li a:hover {
   width: 100%;
   height: 40px;
   background-color: crimson;
-  color: white;
+  color: whitesmoke;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,19 +98,19 @@ nav .menu ul li a:hover {
 }
 
 .content h1 {
-  color: white;
+  color: whitesmoke;
   font-size: 5em;
   margin: 0;
 }
 
 .content h3 {
   margin: 0;
-  color: white;
+  color: whitesmoke;
   font-size: 2em;
 }
 
 .content p {
-  color: white;
+  color: whitesmoke;
   padding-right: 150px;
   text-align: justify;
 }
@@ -127,14 +129,14 @@ nav .menu ul li a:hover {
 
 .content a:hover {
   background-color: crimson;
-  color: white;
+  color: whitesmoke;
 }
 
 .followers {
   margin: 200px 200px;
   height: 300px;
   background-color: crimson;
-  color: white;
+  color: whitesmoke;
   border-radius: 20px;
   display: flex;
   justify-content: space-between;
@@ -145,7 +147,7 @@ nav .menu ul li a:hover {
 }
 
 .followers:hover {
-  background-color: white;
+  background-color: whitesmoke;
   color: black;
   box-shadow: 5px 5px 25px lightgray;
 }
@@ -193,12 +195,14 @@ nav .menu ul li a:hover {
 
 .collection h1 {
   font-size: 4em;
-  margin-bottom: 50px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .items {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .items ul {
@@ -232,6 +236,7 @@ nav .menu ul li a:hover {
 }
 
 .first-half-photo img {
+  border-radius: 0 25px 25px 0;
   transition: all 0.3s linear;
 }
 
@@ -240,11 +245,12 @@ nav .menu ul li a:hover {
 }
 
 .about {
-  margin: 576px 200px 0 200px;
+  margin: 608px 200px 0 200px;
 }
 
 .about h1 {
-  font-size: 3em;
+  font-size: 4em;
+  margin: 0;
 }
 
 .about p {
@@ -267,7 +273,7 @@ nav .menu ul li a:hover {
 
 .about a:hover {
   background-color: black;
-  color: white;
+  color: whitesmoke;
 }
 
 .image-right {
@@ -290,10 +296,17 @@ nav .menu ul li a:hover {
   transform: scale(1.2);
 }
 
+.browse-items h1 {
+  margin-left: 200px;
+  font-size: 4em;
+  margin-bottom: 75px;
+}
+
 .cards {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   margin-bottom: 100px;
   margin-left: 200px;
   margin-right: 200px;
@@ -302,7 +315,7 @@ nav .menu ul li a:hover {
 .card {
   width: 300px;
   height: 580px;
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -355,7 +368,7 @@ nav .menu ul li a:hover {
 
 .card a:hover {
   background-color: black;
-  color: white;
+  color: whitesmoke;
 }
 
 .cards-2 {
@@ -363,20 +376,20 @@ nav .menu ul li a:hover {
 }
 
 .newsletter {
-  height: 200px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: crimson;
-  color: white;
+  color: whitesmoke;
   margin: 0 200px 200px 200px;
   border-radius: 20px;
   transition: all 0.3s linear;
 }
 
 .newsletter:hover {
-  background-color: white;
+  background-color: whitesmoke;
   color: black;
   box-shadow: 5px 5px 25px lightgray;
 }
@@ -402,12 +415,7 @@ nav .menu ul li a:hover {
   transition: all 0.3s linear;
 }
 
-.newsletter:hover .email {
-  border-color: crimson;
-}
-
 .email:focus {
-  border-color: black;
   background-color: lightpink;
 }
 
@@ -415,7 +423,7 @@ nav .menu ul li a:hover {
   outline: 0;
   border: 0;
   background-color: black;
-  color: white;
+  color: whitesmoke;
   padding: 0 25px;
   border-radius: 5px;
   font-size: 1.2em;
@@ -432,8 +440,8 @@ nav .menu ul li a:hover {
 
 footer {
   background-color: black;
-  padding: 200px;
-  color: white;
+  padding: 100px;
+  color: whitesmoke;
   text-align: center;
 }
 
@@ -441,9 +449,9 @@ footer p {
   text-align: center;
   font-weight: 500;
   font-size: 1.2em;
-  color: white;
+  color: whitesmoke;
 }
 
 .margin-off {
-  margin: 0 0 50px 0;
+  margin: 0 0 25px 0;
 }
