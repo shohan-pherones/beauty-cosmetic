@@ -362,6 +362,74 @@ nav .menu ul li a:hover {
   margin-bottom: 200px;
 }
 
+.newsletter {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: crimson;
+  color: white;
+  margin: 0 200px 200px 200px;
+  border-radius: 20px;
+  transition: all 0.3s linear;
+}
+
+.newsletter:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 5px 5px 25px lightgray;
+}
+
+.newsletter h1 {
+  font-size: 2em;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.field {
+  display: flex;
+  justify-content: center;
+}
+
+.email {
+  outline: 0;
+  border: 2px solid black;
+  font-size: 1.3em;
+  padding: 7px 15px;
+  width: 450px;
+  border-radius: 5px;
+  transition: all 0.3s linear;
+}
+
+.newsletter:hover .email {
+  border-color: crimson;
+}
+
+.email:focus {
+  border-color: black;
+  background-color: lightpink;
+}
+
+.submit {
+  outline: 0;
+  border: 0;
+  background-color: black;
+  color: white;
+  padding: 0 25px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-left: 30px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.submit:hover {
+  background-color: crimson;
+}
+
 footer {
   background-color: black;
   padding: 200px;
