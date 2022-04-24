@@ -15,18 +15,18 @@ nav {
   background-color: black;
   color: white;
 }
-nav .logo {
+.logo {
   margin-left: 200px;
   cursor: pointer;
 }
 
-nav .logo h1 {
+.logo h1 {
   font-size: 2em;
   font-weight: 700;
   margin: 0;
 }
 
-nav .logo p {
+.logo p {
   font-size: 0.85em;
   color: lightgray;
   margin: 0;
@@ -360,4 +360,22 @@ nav .menu ul li a:hover {
 
 .cards-2 {
   margin-bottom: 200px;
+}
+
+footer {
+  background-color: black;
+  padding: 200px;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2em;
+  color: white;
+}
+
+.margin-off {
+  margin: 0 0 50px 0;
 }
