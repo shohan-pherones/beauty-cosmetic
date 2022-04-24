@@ -228,7 +228,7 @@ nav .menu ul li a:hover {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 200px;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .first-half-photo img {
@@ -237,6 +237,37 @@ nav .menu ul li a:hover {
 
 .first-half-photo img:hover {
   filter: grayscale(1);
+}
+
+.about {
+  margin: 576px 200px 0 200px;
+}
+
+.about h1 {
+  font-size: 3em;
+}
+
+.about p {
+  font-size: 1.5em;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+.about a {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  padding: 15px 45px;
+  font-size: 1.3em;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 50px;
+  transition: all 0.3s linear;
+}
+
+.about a:hover {
+  background-color: black;
+  color: white;
 }
 
 .cards {
