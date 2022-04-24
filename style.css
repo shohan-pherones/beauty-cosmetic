@@ -17,6 +17,7 @@ nav {
 }
 nav .logo {
   margin-left: 200px;
+  cursor: pointer;
 }
 
 nav .logo h1 {
@@ -127,4 +128,50 @@ nav .menu ul li a:hover {
 .content a:hover {
   background-color: crimson;
   color: white;
+}
+
+.followers {
+  margin: 200px 200px;
+  height: 300px;
+  background-color: crimson;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+  cursor: pointer;
+}
+
+.youtube h2 {
+  font-size: 4em;
+  margin-bottom: 0;
+}
+
+.youtube p {
+  font-size: 2em;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.ig h2 {
+  font-size: 4em;
+  margin-bottom: 0;
+}
+
+.ig p {
+  font-size: 2em;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.fb h2 {
+  font-size: 4em;
+  margin-bottom: 0;
+}
+
+.fb p {
+  font-size: 2em;
+  font-weight: 600;
+  margin-top: 0;
 }
